@@ -11,7 +11,7 @@ with sync_playwright() as p:
     page = browser.new_page()
 
     # Open website
-    page.goto("https://www.google.com")
+    page.goto("https://www.amazon.in/")
 
     # Keep browser open until manually closed
     input("Press Enter to close the browser...")
